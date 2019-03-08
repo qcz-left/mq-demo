@@ -1,0 +1,14 @@
+#spring配置
+spring:
+  profiles:
+    include: pro
+  # 消息队列配置
+  rabbitmq:
+    host: 192.168.56.103
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: demo
+    connection-timeout: 60000
+logging:
+  config: classpath:logback-spring.xml

@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://your's ip:3306/slv_init_manage
+    username: username
+    password: password
+  redis:
+    host: 127.0.0.1
+    port: 6379
